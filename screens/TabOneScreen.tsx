@@ -8,7 +8,7 @@ export default function TabOneScreen() {
     <WebView
       source={{ uri: 'https://www.twisto.cz' }}
       style={{ marginTop: 20 }}
-      nativeConfig={{ props: { wwebContentsDebuggingEnabled: true } }}
+      nativeConfig={{ props: { webContentsDebuggingEnabled: true } }}
     />
   );
 }
