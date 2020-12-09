@@ -6,7 +6,7 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          WebView: {
             screens: {
               TabOneScreen: 'one',
             },
